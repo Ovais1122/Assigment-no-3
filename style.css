@@ -1,0 +1,188 @@
+*{
+padding:0px;
+margin:0px;
+
+
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header #unav{
+  background: rgb(4, 130, 214) !important;
+  color:rgb(255, 255, 255);
+  padding:10px;
+  width: 100%;
+}
+
+.fab {
+  color:rgb(255, 255, 255) !important;
+  margin:10px;
+}
+
+#unav #donate ul li a{
+  padding:8px;
+  background: #ffffff;
+  color:#555;
+  margin:5px;
+  font-size:10px;
+}
+
+.bg-silver-light{
+  background: rgb(255, 255, 255) !important;
+}
+
+
+.navbar-nav .active{
+  background: rgb(4, 130, 214);
+  border-radius: 20px;
+  padding:0px 10px;
+}
+.active .nav-link{
+  color: #fff !important;
+}
+
+.nav-link{
+background: rgba(4, 130, 214, 0);
+padding:7px 17px;
+}
+
+.nav-item:hover >.nav-link{
+  
+  background: rgb(4, 130, 214);
+  transition: 0.5s ease-in-out;
+  color:#fff !important;
+  border-radius: 20px;
+  padding:7px 17px;
+}
+hr{
+ color:green;
+ width:30px;
+ height: 4px; 
+}
+.title-icon{
+  margin: 0 auto !important;
+  max-width: 160px !important;
+  position: relative !important;
+
+}
+
+.title-icon::before{
+  content: "";
+  top:20px;
+  position: absolute;
+  width:30px;
+  height:2px;
+  background:green;
+  right:10px;
+}
+
+.title-icon::after{
+  content: "";
+  position: absolute;
+  width:30px;
+  height:2px;
+  left:10px;
+  top: 20px;
+  background:green;
+}
+
+.title-icon img{
+  margin-left:60px;
+}
+
+
+/* Counter */
+
+.counter{
+  background-color: rgb(4, 130, 214);
+  color:#fff;
+  padding:50px;
+  margin-top:40px;
+}
+
+.funfact h5{
+  font-family: serif;
+  font-size: 0.8em !important;
+}
+
+/* what we are doing */
+.whatarewe{
+  margin:0px;
+  padding:30px;
+  background-color: #eeeeee;
+}
+.box-shadow{
+  box-shadow: 0px 8px 20px 0px rgba(168, 168, 168, 0.219) ;
+}
+
+/* upcoming mission */
+
+.upcomingmission{
+  padding:50px;
+}
+
+.line-bottom{
+  color:rgb(4, 130, 214);
+  font-family: serif;
+  padding:8px 0px;
+  position: relative;
+}
+.line-bottom::after{
+  content: "";
+  position: absolute;
+  width:30px;
+  height:2px;
+  left:0px;
+  bottom:-1px;
+  margin-top:5px;
+  background:green;
+}
+
+.bg-silver-light{
+  background:rgb(209, 209, 209);
+}
+.icon-box{
+  padding:15px;
+  box-shadow: 0px 8px 20px 0px rgba(168, 168, 168, 0.219) ;
+  margin:10px 0px;
+}
+.icon-box:hover{
+  background: rgb(197, 197, 197);
+  transition: 0.5s ease-in-out;
+  box-shadow:none;
+}
+
+.icon-box .media-left img{
+  margin-right:20px;
+}
+
+/* footer */
+
+footer{
+  padding-top:30px ;
+  margin-top:100px;
+  background: rgb(37, 39, 46) !important;
+  color:#fff;
+  position: relative;
+}
+
+.list-inline a{
+  color:#eeeeee;
+  outline: none;
+  line-height: 33px;
+}
+
+#socialmedia li{
+  display:inline-block;
+  margin:10px 10px 0px 0px;
+}
+
+.lfooter{
+  background:rgb(4, 130, 214);
+  padding:15px;
+  width:100%;
+  margin:0 auto;
+
+}
